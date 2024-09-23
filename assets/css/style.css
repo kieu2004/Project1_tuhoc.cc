@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* tức là còn 10px, vì mặc định là 16px */
+}
+
+/* Khôi phục lại cỡ chữ mặc định */
+body {
+  font-size: 1.6rem;
+  /* 1.6*10=16px */
+}
