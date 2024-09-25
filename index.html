@@ -6,6 +6,23 @@
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
 
+    <!-- Nhúng fonts chữ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -13,6 +30,188 @@
   </head>
 
   <body>
-    <h1>hello</h1>
+    <div class="header">
+      <div class="top_header">
+        <p>Lesson</p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+        <button>Sign Up</button>
+      </div>
+      <div class="center_header">
+        <div class="left">
+          <img src="./assets/img/hero-img.jpg" alt="Hình nhân viên" />
+        </div>
+        <div class="infor_mini">
+          <div class="ui_ux">
+            <div class="icon_before icon_1">
+              <img src="./assets/img/des.svg" alt="ui_ux_icon" />
+            </div>
+            <div class="inf">
+              <p>20 Courses</p>
+              <p>UI/UX Design</p>
+            </div>
+          </div>
+          <div class="ui_ux">
+            <div class="icon_before icon_2">
+              <img src="./assets/img/dev.svg" alt="development_icon" />
+            </div>
+            <div class="inf">
+              <p>20 Courses</p>
+              <p>Development</p>
+            </div>
+          </div>
+          <div class="ui_ux">
+            <div class="icon_before icon_3">
+              <img src="./assets/img/marketing.svg" alt="marketing_icon" />
+            </div>
+            <div class="inf">
+              <p>30 Courses</p>
+              <p>Marketing</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <h2><b>Learn without limits and spread knowledge.</b></h2>
+          <p>
+            Build new skills for that “this is my year” feeling with courses,
+            certificates, and degrees from world-class universities and
+            companies.
+          </p>
+          <div class="see_course">
+            <button>See Courses</button>
+            <button class="watch">
+              <div class="icon">
+                <img src="./assets/img/play.svg" alt="watch icon" />
+              </div>
+              <span>Watch video</span>
+            </button>
+          </div>
+          <p>Recent engagement</p>
+          <div class="so_luong">
+            <p><b>50K</b></p>
+            <p>Student</p>
+            <p><b>70+</b></p>
+            <p>Courses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our_popular_courses">
+      <div class="inf_opc">
+        <div class="inf_opc_tren">
+          <div>
+            <p>Our popular courses</p>
+            <p>
+              Build new skills with new trendy courses and shine for the next
+              future career.
+            </p>
+          </div>
+          <div>
+            <button class="icon_control">&#60;</button>
+            <button class="icon_control">&#62;</button>
+          </div>
+        </div>
+        <div class="inf_img">
+          <div>
+            <img src="./assets/img/course-1.jpg" alt="" />
+            <div class="inf_img_duoi">
+              <a href="#">Basic web design</a>
+              <div class="danh_gia">
+                <i class="fa-solid fa-star"></i>
+                <span>4.5</span>
+              </div>
+            </div>
+            <p class="inf_img_duoi">
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="inf_img_duoi">
+              <span>$120.75</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/img/course-2.jpg" alt="" />
+            <div class="inf_img_duoi">
+              <a href="#">UI/UX design</a>
+              <dic class="danh_gia">
+                <i class="fa-solid fa-star"></i>
+                <span>4.5</span>
+              </dic>
+            </div>
+            <p class="inf_img_duoi">
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="inf_img_duoi">
+              <span>$120.75</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/img/course-3.jpg" alt="" />
+            <div class="inf_img_duoi">
+              <a href="#">Web app design</a>
+              <div class="danh_gia">
+                <i class="fa-solid fa-star"></i>
+                <span>4.5</span>
+              </div>
+            </div>
+            <p class="inf_img_duoi">
+              Get the best course, gain knowledge and shine for your future
+              career.
+            </p>
+            <div class="inf_img_duoi">
+              <span>$120.75</span>
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gioi_thieu_ca_nhan">
+      <div class="inf_gioi_thieu">
+        <div class="inf_gt_left">
+          <img class="img" src="./assets/img/ava1.jpg" alt="hinh_co_giao" />
+          <p>Peter Moor</p>
+          <p>Student of Web Design</p>
+          <div class="dot">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="inf_gt_right">
+          <img src="./assets/img/open-quote.svg" alt="" />
+          <p>
+            Not only does my resume look impressive—filled with the names and
+            logos of world-class institutions—but these certificates also bring
+            me closer to my career goals by validating the skills I've learned."
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="body">
+        <div class="features_img">
+          <img src="./assets/img/learn1.jpg" alt="" />
+          <img src="./assets/img/learn2.jpg" alt="" />
+        </div>
+        <div class="feature_content">
+          <p>Learner outcomes through our awesome platform</p>
+          <p>
+            87% of people learning for professional development report career
+            benefits like getting a promotion, a raise, or starting a new
+            career.
+          </p>
+          <p>Lesson Impact Report (2022)</p>
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
