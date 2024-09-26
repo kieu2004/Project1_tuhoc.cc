@@ -22,6 +22,7 @@ body {
 }
 
 .fixed {
+  z-index: 1;
   position: sticky;
   top: -22px;
 }
@@ -100,6 +101,16 @@ body {
   position: relative;
   padding-top: 30px;
 }
+
+/* Ghi nhớ: Chừng nửa khi làm các dự án lớn hơn thì nên là set kích thước cho ảnh trước
+ vì nếu lỡ người dùng thay đổi ảnh khác là nó sẽ bị vỡ ảnh ngay*/
+
+/* .center_header .left img {
+  width: 470px;
+  height: 570px;
+  object-fit: cover;
+  border-radius: 15px;
+} */
 
 .center_header .right {
   margin-left: 200px;
