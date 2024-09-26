@@ -12,6 +12,8 @@ body {
   font-size: 1.6rem;
   /* 1.6*10=16px */
   font-family: "Poppins", sans-serif;
+  /* max-width: calc(100% - 1300px);
+  margin: 0 auto; */
 }
 
 /* Header */
@@ -19,15 +21,18 @@ body {
   background-color: #fffcf4;
 }
 
+.header.fixed {
+  position: sticky;
+  top: -28px;
+  /* left: 0;
+  right: 0; */
+}
+
 .top_header {
   display: flex;
   padding: 30px 20px;
   align-items: center;
   justify-content: center;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  right: 0; */
 }
 
 .top_header ul {
@@ -39,6 +44,16 @@ body {
   margin-right: 500px;
   font-weight: bold;
   font-size: 2rem;
+}
+
+.top_header p:after {
+  display: inline-block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffc019;
+  margin-left: 2px;
 }
 
 .top_header ul li {
@@ -54,13 +69,14 @@ body {
 }
 
 .top_header ul li a {
-  color: black;
+  color: #000;
   text-decoration: none;
   padding: 8px 18px;
 }
 
-.top_header ul li:hover {
-  font-weight: bold;
+.top_header ul li a:hover {
+  color: #000;
+  text-shadow: 1px 0 0 currentColor;
 }
 
 .top_header button {
