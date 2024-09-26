@@ -21,11 +21,9 @@ body {
   background-color: #fffcf4;
 }
 
-.header.fixed {
+.fixed {
   position: sticky;
-  top: -28px;
-  /* left: 0;
-  right: 0; */
+  top: -22px;
 }
 
 .top_header {
@@ -37,7 +35,6 @@ body {
 
 .top_header ul {
   flex-wrap: nowrap;
-  /* margin-left: 200px; */
 }
 
 .top_header p {
@@ -58,7 +55,6 @@ body {
 
 .top_header ul li {
   display: inline-block;
-  /* padding: 10px; */
   margin-right: 20px;
 }
 
@@ -94,18 +90,21 @@ body {
   cursor: pointer;
 }
 
+.hero {
+  background-color: #fffcf4;
+}
 .center_header {
   display: flex;
   margin: 0 auto;
-  margin-top: 25px;
   width: 90%;
   position: relative;
+  padding-top: 30px;
 }
 
 .center_header .right {
   margin-left: 200px;
   padding: 50px 30px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .center_header .right h2 {
